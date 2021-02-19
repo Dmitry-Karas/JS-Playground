@@ -5,12 +5,10 @@
 
 function checkForSpam(message) {
   let result;
-  // Пиши код ниже этой строки
     message = message.toLowerCase();
     result = message.includes('spam') || message.includes('sale');
-    
+
     console.log(result);
-  // Пиши код выше этой строки
   return result;
 }
 checkForSpam('SpAm');

@@ -14,8 +14,8 @@ function composeMessage(customerName) {
 
 const pizzaPalaceComposer = composeMessage.bind(pizzaPalace);
 const pizzaPalaceMessage = pizzaPalaceComposer('Манго');
-console.log(pizzaPalaceMessage);
+console.log('pizzaPalaceMessage', pizzaPalaceMessage);
 
 const burgerShackComposer = composeMessage.bind(burgerShack);
 const burgerShackMessage = burgerShackComposer('Поли');
-console.log(burgerShackMessage);
+console.log('burgerShackMessage', burgerShackMessage);

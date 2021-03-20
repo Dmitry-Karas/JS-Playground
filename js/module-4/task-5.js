@@ -2,7 +2,6 @@
 
 const pizzaPalace = {
   pizzas: ['Ультрасыр', 'Аль Копчино', 'Четыре нарезона'],
-  // Пиши код ниже этой строки
   checkPizza(pizzaName) {
     return this.pizzas.includes(pizzaName);
   },
@@ -15,7 +14,6 @@ const pizzaPalace = {
 
     return `Заказ принят, готовим пиццу «${pizzaName}».`;
   },
-  // Пиши код выше этой строки
 };
 
 console.log(pizzaPalace.order('Четыре нарезона'));

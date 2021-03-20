@@ -16,13 +16,13 @@ StringBuilder.prototype.getValue = function () {
   return this.value;
 };
 StringBuilder.prototype.padEnd = function (str) {
-  return (this.value = this.value + str);
+  this.value += str;
 };
 StringBuilder.prototype.padStart = function (str) {
-  return (this.value = str + this.value);
+  this.value = str + this.value;
 };
 StringBuilder.prototype.padBoth = function (str) {
-  return (this.value = str + this.value + str);
+  this.value = str + this.value + str;
 };
 
 const builder = new StringBuilder('.');

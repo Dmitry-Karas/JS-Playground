@@ -29,6 +29,7 @@ console.log(service.mailingList);
     'poly@hotmail.de', 
     'ajax@jmail.net', 
     'kiwi@mail.uk']*/
+
 const secondInvoke = logAndInvokeAction(
   'poly@hotmail.de',
   service.unsubscribe.bind(service),

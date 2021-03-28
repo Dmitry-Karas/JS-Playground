@@ -87,6 +87,6 @@ const changeAge = users => {
   });
 };
 
-// console.log('~ changeAge', changeAge(users));
+console.log('~ changeAge', changeAge(users));
 
 // =======================================================================

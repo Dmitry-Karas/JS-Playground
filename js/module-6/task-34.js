@@ -7,7 +7,6 @@ const authors = [
   'Роберт Шекли',
   'Федор Достоевский',
 ];
-// Пиши код ниже этой строки
 
 const ascendingReleaseDates = [...releaseDates].sort((a, b) => a - b);
 console.log('~ ascendingReleaseDates', ascendingReleaseDates);

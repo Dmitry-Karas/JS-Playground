@@ -2,18 +2,15 @@
 
 // При выполнении этой задачи в теле функции includes() нельзя использовать метод массив.includes(значение).
 
-
 function includes(array, value) {
-    for (const i of array) {
-        if (i === value) {
-            console.log(i === value);
-            return i === value;
-        }
+  for (const i of array) {
+    if (i === value) {
+      return i === value;
     }
-    
-    console.log(false);
-    return false;
+  }
+
+  return !value;
 }
 
-includes([1, 2, 3, 4, 5], 3);
-includes([1, 2, 3, 4, 5], 17);
+console.log(includes([1, 2, 3, 4, 5], 3));
+console.log(includes([1, 2, 3, 4, 5], 17));
